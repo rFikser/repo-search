@@ -1,6 +1,6 @@
 {
   "homepage": "http://rFikser.github.io/repo-search",
-  "name": "Github Repository Searcher",
+  "name": "searcher",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
