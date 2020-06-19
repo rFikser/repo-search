@@ -28,7 +28,10 @@ export const SearchItem = ({ data, history }) => {
         Source code
       </a>
       <p className="date">{calcElapsedTime(data.updated_at)}</p>
-      <p className="stars">{data.stargazers_count}</p>
+      <p className="stars">
+        {" "}
+        {data.stargazers_count} <i class="fas fa-star"></i>
+      </p>
     </div>
   );
 };

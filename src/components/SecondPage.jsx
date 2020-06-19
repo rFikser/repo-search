@@ -59,8 +59,11 @@ export const SecondPage = ({ match, history }) => {
         <div className="container">
           <div className="secondPage-box">
             <div className="repository-title">
-              <p>{data.name}</p>
-              <span>{data.stargazers_count}</span>
+              <p> {data.name}</p>
+              <span classname="stargazed">
+                {data.stargazers_count}
+                <i class="fas fa-star"></i>
+              </span>
               <span>{calcElapsedTime(data.updated_at)}</span>
             </div>
             <div className="repository-user">

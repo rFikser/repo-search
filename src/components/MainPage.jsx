@@ -108,7 +108,7 @@ export const MainPage = (props) => {
         </h1>
         {localStorage.getItem("Current Page") && (
           <p className="pointer-link header-link" onClick={clear}>
-            CLEAR STORAGE
+            CLEAR SEARCH
           </p>
         )}
       </header>
